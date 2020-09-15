@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	margin-bottom: 15px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+/*Responsive framework*/
+.row {
+	width: 100%;
+	padding: 0px 15px 0px 15px;
+}
+
+/*Large Device*/
+@media(min-width: 992px){
+	.col-lg-4 {
+		float: left;
+		border: 1px solid black;
+		width: 32%;
+		margin: 0px 0.66% 15px 0.66%;
+	}
+}
+
+/*Medium devices*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-2 {
+		float: left;
+		border: 1px solid black;
+		width: 49%;
+		margin: 0px 0.5% 15px 0.5%;
+	}
+	#Box3 {
+		width: 99%
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12 {
+		float: left;
+		border: 1px solid black;
+		margin: 0px 0px 15px 0px;
+	}
+}
+
+div div p.text{
+	padding: 15px;
+	padding-top: 25px;
+}
+
+div.row > div{
+	background-color: grey;
+	border: 1px solid black;
+}
+
+.text {
+	clear: both;
+}
+
+.titlereg > p{
+	margin-bottom:0px;
+}
+
+#T1 {
+	background-color: red;
+}
+
+#T2{
+	background-color: blue;
+}
+
+#T3{
+	background-color: green;
+}
+
+#Box1, #Box2, #Box3 {
+	position: relative;
+}
+
+#T1, #T2, #T3 {
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 0px 40px 0px 40px;
+}
