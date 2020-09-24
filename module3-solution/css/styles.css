@@ -9,10 +9,10 @@
 	border-bottom: 3px solid black;
 }
 
-.Logo h1 {
+.navbar-brand{
 	float:left;
 	padding: 10px;
-	color: black;
+	color: black !important;
 	font-weight: bold;
 	font-size: 3vw;
 }
@@ -39,13 +39,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-	.Logo h1 {
+	.navbar-brand {
 		font-size: 32px;
 	}
 }
 
 @media (max-width: 767px){
-	.Logo h1 {
+	.navbar-brand {
 		font-size: 32px;
 	}
 }
